@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Formulario</title>
+</head>
+
+<body class="bg-blue-400">
+    <h1>Formulario</h1>
+
+    <form class="bg-white w-80 mx-auto mt-8 rounded-lg p-6" action="PruebaTailwind.html">
+        <input class="border border-red-300 w-full px-3z py-2 mb-4 rounded-md disabled:bg-red-300" type="text"
+            placeholder="Nombre" disabled>
+        <input
+            class="border border-red-300 w-full px-3z py-2 mb-4 rounded-md focus:outline-none focus:ring-1 focus:ring-green-400 invalid:focus:ring-red-400 peer"
+            type="email" placeholder="email">
+            <p class="text-red-500 hidden peer-invalid:block mb-4">El correo es incorrecto</p>
+        <input class="border border-red-300 w-full px-3z py-2 mb-4 rounded-md" type="password" placeholder="password">
+        <input class="border border-red-300 w-full px-3z py-2 mb-4 rounded-md" type="text" placeholder="Nombre">
+        <input class="border border-red-300 w-full px-3z py-2 mb-4 rounded-md cursor-pointer hover:bg-yellow-300"
+            type="submit" value="Ingresar">
+
+    </form>
+
+
+
+
+</body>
+
+</html>
